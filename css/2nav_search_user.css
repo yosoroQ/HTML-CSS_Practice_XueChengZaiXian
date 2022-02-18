@@ -1,0 +1,72 @@
+
+/* 导航 */
+.nav{
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+}
+
+.nav li{
+    float: left;
+    margin-right: 26px;
+}
+
+.nav li a{
+    display: block;
+    padding: 0 9px;
+    height: 42px;
+    line-height: 42px;
+
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* 搜索 */
+.search{
+    float: left;
+    margin-left: 50px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+
+.search input{
+    float: left;  
+    padding-left: 20px;
+    /* 左右加一起的尺寸要小于等于410 */
+    width: 360px;
+    height: 38px;
+    border: 0;
+}
+
+/* 控制placeholder的样式 */
+.search input::placeholder{
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.search button{
+    float: left;   
+    width: 50px;
+    height: 40px;
+    background-image: url(../image/btn.png);
+    border: 0;
+}
+
+/* 用户 */
+.user {
+    float: right;
+    margin-right: 35px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.user img {
+    /* 调节图片垂直对齐方式, middle:居中 */
+    vertical-align: middle;
+}
+
